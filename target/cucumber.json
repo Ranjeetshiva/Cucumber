@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 253260300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Vaildate The browser",
+            "match": {
+              "location": "stepDefination.vaildate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser Is triggered",
+            "match": {
+              "location": "stepDefination.browser_is_triggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check If Browser Is Started",
+            "match": {
+              "location": "stepDefination.check_if_browser_is_started()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Home page default login",
+        "description": "",
+        "id": "account-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 441100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on landing page",
+            "match": {
+              "location": "stepDefination.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3840600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User login into application with \"jin\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jin",
+                  "offset": 34
+                },
+                {
+                  "val": "123",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefination.user_login_into_application_with_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 503200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.Home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "Cards are displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@JuneRelease"
+          }
+        ]
+      }
+    ],
+    "name": "Account Login",
+    "description": "",
+    "id": "account-login",
+    "keyword": "Feature",
+    "uri": "Account.feature"
+  }
+]
