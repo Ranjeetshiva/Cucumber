@@ -14,12 +14,7 @@ import cucumber.api.junit.Cucumber;
 //Tags
 //  dryRun = true, -- We Need to Add
 
-// Hi Testing code
-//
-//
-//
-// Testing
-// Added By ranjeet
+
 @CucumberOptions(
         features= "src/test/java/features",
         glue="stepDefinations",
